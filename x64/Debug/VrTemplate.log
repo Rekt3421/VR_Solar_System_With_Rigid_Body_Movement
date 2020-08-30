@@ -1,0 +1,57 @@
+﻿  Component.cpp
+c:\users\faaiz\desktop\vrprojects\common\component.cpp(56): warning C4838: conversion from 'unsigned int' to 'int' requires a narrowing conversion
+c:\users\faaiz\desktop\vrprojects\common\component.cpp(59): warning C4838: conversion from 'unsigned int' to 'int' requires a narrowing conversion
+  Controller.cpp
+  GroundNode.cpp
+  imgui_draw_3d.cpp
+  imgui_impl_vr.cpp
+  MeshNode.cpp
+  Picker.cpp
+  RenderNode.cpp
+  SceneNode.cpp
+  SceneVisitor.cpp
+  ShadowMapPass.cpp
+  SkyNode.cpp
+  TrackedCamera.cpp
+c:\users\faaiz\desktop\vrprojects\common\trackedcamera.cpp(82): warning C4101: 'nCameraError': unreferenced local variable
+  VrControllers.cpp
+  VrHandler.cpp
+  VrManipulator.cpp
+  VrPointer.cpp
+  VrTeleporter.cpp
+  Cube.cpp
+  LoadMesh.cpp
+c:\users\faaiz\desktop\vrprojects\core\loadmesh.cpp(177): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Compiling...
+  LoadShader.cpp
+  LoadTexture.cpp
+  main.cpp
+  Observer.cpp
+  Quad.cpp
+  VideoMux.cpp
+c:\users\faaiz\desktop\vrprojects\core\videomux.cpp(264): warning C4244: '=': conversion from 'int64_t' to 'int', possible loss of data
+c:\users\faaiz\desktop\vrprojects\core\videomux.cpp(288): warning C4996: 'avcodec_encode_audio2': was declared deprecated
+  c:\users\faaiz\desktop\vrprojects\include\libavcodec\avcodec.h(5347): note: see declaration of 'avcodec_encode_audio2'
+c:\users\faaiz\desktop\vrprojects\core\videomux.cpp(438): warning C4996: 'avcodec_encode_video2': was declared deprecated
+  c:\users\faaiz\desktop\vrprojects\include\libavcodec\avcodec.h(5386): note: see declaration of 'avcodec_encode_video2'
+c:\users\faaiz\desktop\vrprojects\core\videomux.cpp(483): warning C4996: 'av_register_all': was declared deprecated
+  c:\users\faaiz\desktop\vrprojects\include\libavformat\avformat.h(2025): note: see declaration of 'av_register_all'
+c:\users\faaiz\desktop\vrprojects\core\videomux.cpp(589): warning C4996: 'av_register_all': was declared deprecated
+  c:\users\faaiz\desktop\vrprojects\include\libavformat\avformat.h(2025): note: see declaration of 'av_register_all'
+  imgui_impl_glfw_gl3.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  Audio.cpp
+  ControllerUi.cpp
+  LoadAssets.cpp
+  SceneEvent.cpp
+  VrScene.cpp
+c:\users\faaiz\desktop\vrprojects\vrtemplate\appcommon\vrscene.cpp(174): warning C4312: '<function-style-cast>': conversion from 'GLuint' to 'ImTextureID' of greater size
+c:\users\faaiz\desktop\vrprojects\vrtemplate\appcommon\vrscene.cpp(176): warning C4312: '<function-style-cast>': conversion from 'GLuint' to 'ImTextureID' of greater size
+  VrScene3dGui.cpp
+c:\users\faaiz\desktop\vrprojects\vrtemplate\appcommon\vrscene3dgui.cpp(186): warning C4312: '<function-style-cast>': conversion from 'GLuint' to 'ImTextureID' of greater size
+  Generating Code...
+MSVCRTD.lib(initializers.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+  VrTemplate.vcxproj -> C:\Users\Faaiz\Desktop\VrProjects\VrTemplate\x64\Debug\VrTemplated.exe

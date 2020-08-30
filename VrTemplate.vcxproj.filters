@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{4797d099-361b-4bb7-8458-11741b30e912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{88fe3ddc-c07e-4f9a-a3d2-88e4b83f6c17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppCommon">
+      <UniqueIdentifier>{0542ab48-78e2-4555-8b2f-74becfa4b11d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{8dd76bfd-de93-4e8d-a866-c233ffe682bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{5710b138-bb56-4a7f-b183-81f2d85f7975}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Core\Cube.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\LoadMesh.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\LoadShader.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\LoadTexture.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\main.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Observer.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Quad.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\VideoMux.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Component.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Controller.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\GroundNode.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\imgui_draw_3d.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\imgui_impl_vr.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\MeshNode.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Picker.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\RenderNode.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\SceneNode.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\SceneVisitor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ShadowMapPass.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\SkyNode.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\TrackedCamera.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\VrControllers.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\VrHandler.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\VrManipulator.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\VrPointer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\VrTeleporter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="AppCommon\Audio.cpp">
+      <Filter>AppCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="AppCommon\ControllerUi.cpp">
+      <Filter>AppCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="AppCommon\LoadAssets.cpp">
+      <Filter>AppCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="AppCommon\SceneEvent.cpp">
+      <Filter>AppCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="AppCommon\VrScene.cpp">
+      <Filter>AppCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="AppCommon\VrScene3dGui.cpp">
+      <Filter>AppCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\examples\opengl3_example\imgui_impl_glfw_gl3.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Core\Cube.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\LoadMesh.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\LoadShader.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\LoadTexture.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\minimalOpenGL.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\minimalOpenVR.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Observer.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Quad.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\VideoMux.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Component.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Controller.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\GroundNode.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\imgui_draw_3d.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\imgui_impl_vr.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\MeshNode.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Picker.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\RenderNode.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\SceneNode.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\SceneVisitor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ShadowMapPass.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\SkyNode.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\TrackedCamera.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VrControllers.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VrHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VrManipulator.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VrPointer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VrTeleporter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="AppCommon\Audio.h">
+      <Filter>AppCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="AppCommon\ControllerUi.h">
+      <Filter>AppCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="AppCommon\LoadAssets.h">
+      <Filter>AppCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="AppCommon\SceneEvent.h">
+      <Filter>AppCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="AppCommon\ShaderLocs.h">
+      <Filter>AppCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="AppCommon\VrScene.h">
+      <Filter>AppCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="AppCommon\VrScene3dGui.h">
+      <Filter>AppCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\examples\opengl3_example\imgui_impl_glfw_gl3.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shaders\controller_fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="assets\shaders\controller_vs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="assets\shaders\cube_fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="assets\shaders\cube_vs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="assets\shaders\ground_fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="assets\shaders\ground_vs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="assets\shaders\gui_fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="assets\shaders\gui_vs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="assets\shaders\manip_fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="assets\shaders\manip_vs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="assets\shaders\picking_fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="assets\shaders\picking_vs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="assets\shaders\pointer_fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="assets\shaders\pointer_vs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="assets\shaders\shadowmap_fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="assets\shaders\shadowmap_vs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="assets\shaders\teleporter_fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="assets\shaders\teleporter_vs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="assets\shaders\template_fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="assets\shaders\template_vs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
